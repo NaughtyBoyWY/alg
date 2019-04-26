@@ -1,0 +1,4 @@
+﻿  Prim.cpp
+f:\alganddatastruc\mingentree\mingentree\prim.cpp(4): warning C4005: “INFINITY”: 宏重定义
+  d:\windows kits\10\include\10.0.17763.0\ucrt\corecrt_math.h(90): note: 参见“INFINITY”的前一个定义
+  MinGenTree.vcxproj -> F:\AlgAndDataStruc\MinGenTree\Debug\MinGenTree.exe

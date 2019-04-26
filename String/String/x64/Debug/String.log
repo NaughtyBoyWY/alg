@@ -1,4 +1,4 @@
 ﻿  KMP.cpp
-f:\alganddatastruc\string\string\kmp.cpp(11): warning C4326: “main”的返回类型应为“int”而非“void”
-f:\alganddatastruc\string\string\kmp.cpp(83): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
-  String.vcxproj -> F:\AlgAndDataStruc\String\x64\Debug\String.exe
+E:\git_repo\alg\String\String\KMP.cpp(12): warning C4326: “main”的返回类型应为“int”而非“void”
+E:\git_repo\alg\String\String\KMP.cpp(84): warning C4267: “return”: 从“size_t”转换到“int”，可能丢失数据
+  String.vcxproj -> E:\git_repo\alg\String\x64\Debug\String.exe

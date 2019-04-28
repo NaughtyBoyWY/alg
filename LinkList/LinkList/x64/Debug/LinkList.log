@@ -1,4 +1,0 @@
-﻿  LinkList.cpp
-E:\git_repo\alg\LinkList\LinkList\LinkList.cpp(20): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-E:\git_repo\alg\LinkList\LinkList\LinkList.cpp(35): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
-  LinkList.vcxproj -> E:\git_repo\alg\LinkList\x64\Debug\LinkList.exe

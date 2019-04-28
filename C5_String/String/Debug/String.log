@@ -1,0 +1,6 @@
+﻿  KMP.cpp
+f:\alganddatastruc\string\string\kmp.cpp(9): warning C4326: “main”的返回类型应为“int”而非“void”
+f:\alganddatastruc\string\string\kmp.cpp(26): warning C4018: “<”: 有符号/无符号不匹配
+f:\alganddatastruc\string\string\kmp.cpp(45): warning C4018: “<=”: 有符号/无符号不匹配
+f:\alganddatastruc\string\string\kmp.cpp(57): warning C4018: “>”: 有符号/无符号不匹配
+  String.vcxproj -> F:\AlgAndDataStruc\String\Debug\String.exe

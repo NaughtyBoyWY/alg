@@ -29,7 +29,7 @@ void GetNext(string str, int *next)
 	j = 0;
 	while (i <str.length())
 	{
-		if (j == 0 || str[j-1] == str[i-1])
+		if (j == 0 || str[j - 1] == str[i - 1])
 		{
 			++i;
 			++j;
@@ -52,7 +52,7 @@ void GetNextVal(string str, int *nextval)
 		{
 			++i;
 			++j;
-			if(str[j - 1] == str[i - 1])
+			if(str[j - 1] != str[i - 1])
 				nextval[i - 1] = j;
 			else
 				nextval[i - 1] = nextval[j - 1];
@@ -70,7 +70,7 @@ int IndexKMP(string s, string t, int pos)
 	GetNextVal(t, next);
 	while (i <= s.length() && j <= t.length())
 	{
-		if (j == 0 || s[i-1] == t[j-1])
+		if (j == 0 || s[i - 1] == t[j - 1])
 		{
 			i++;
 			j++;
@@ -81,7 +81,7 @@ int IndexKMP(string s, string t, int pos)
 		}
 	}
 	if (j > t.length())
-		return i - t.length() -1;
+		return i - t.length() -1;	//返回元素下标
 	else
 		return 0;
 }
